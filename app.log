@@ -1,0 +1,42 @@
+2024-07-24 17:37:33,659:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-24 17:37:33,659:INFO:[33mPress CTRL+C to quit[0m
+2024-07-24 17:37:33,666:INFO: * Restarting with watchdog (inotify)
+2024-07-24 17:37:33,809:WARNING: * Debugger is active!
+2024-07-24 17:37:33,811:INFO: * Debugger PIN: 124-177-149
+2024-07-24 17:37:39,821:INFO:Executing command: 1
+2024-07-24 17:37:39,824:ERROR:Error during execution: b'/bin/sh: 1: 1: not found\n'
+2024-07-24 17:37:39,832:INFO:127.0.0.1 - - [24/Jul/2024 17:37:39] "POST / HTTP/1.1" 200 -
+2024-07-24 17:37:39,851:INFO:127.0.0.1 - - [24/Jul/2024 17:37:39] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-07-24 17:37:46,779:INFO:Executing command: python test.py
+2024-07-24 17:37:46,779:INFO:Command requires user input.
+2024-07-24 17:37:46,804:INFO:Command executed successfully.
+2024-07-24 17:37:46,805:INFO:127.0.0.1 - - [24/Jul/2024 17:37:46] "POST / HTTP/1.1" 200 -
+2024-07-24 17:37:46,828:INFO:127.0.0.1 - - [24/Jul/2024 17:37:46] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-07-24 17:37:49,641:INFO:Executing command: 1
+2024-07-24 17:37:49,643:ERROR:Error during execution: b'/bin/sh: 1: 1: not found\n'
+2024-07-24 17:37:49,643:INFO:127.0.0.1 - - [24/Jul/2024 17:37:49] "POST / HTTP/1.1" 200 -
+2024-07-24 17:37:49,668:INFO:127.0.0.1 - - [24/Jul/2024 17:37:49] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-07-24 17:41:23,449:INFO: * Detected change in '/home/sharath/Desktop/base/main.py', reloading
+2024-07-24 17:41:23,451:INFO: * Detected change in '/home/sharath/Desktop/base/main.py', reloading
+2024-07-24 17:41:24,384:INFO: * Restarting with watchdog (inotify)
+2024-07-24 17:41:42,695:INFO: * Restarting with watchdog (inotify)
+2024-07-24 17:41:42,844:WARNING: * Debugger is active!
+2024-07-24 17:41:42,846:INFO: * Debugger PIN: 124-177-149
+2024-07-24 17:42:06,676:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-24 17:42:06,676:INFO:[33mPress CTRL+C to quit[0m
+2024-07-24 17:42:06,682:INFO: * Restarting with watchdog (inotify)
+2024-07-24 17:42:06,829:WARNING: * Debugger is active!
+2024-07-24 17:42:06,832:INFO: * Debugger PIN: 124-177-149
+2024-07-24 17:42:12,667:INFO:Executing command: 1
+2024-07-24 17:42:12,669:ERROR:Error during execution: b'/bin/sh: 1: 1: not found\n'
+2024-07-24 17:42:12,675:INFO:127.0.0.1 - - [24/Jul/2024 17:42:12] "POST / HTTP/1.1" 200 -
+2024-07-24 17:42:12,701:INFO:127.0.0.1 - - [24/Jul/2024 17:42:12] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-07-24 17:42:17,465:INFO:Executing command: python test.py
+2024-07-24 17:42:17,466:INFO:Command executed successfully.
+2024-07-24 17:42:17,478:INFO:127.0.0.1 - - [24/Jul/2024 17:42:17] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2024-07-24 17:42:17,504:INFO:127.0.0.1 - - [24/Jul/2024 17:42:17] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-07-24 17:42:17,505:INFO:127.0.0.1 - - [24/Jul/2024 17:42:17] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-07-24 17:42:17,513:INFO:127.0.0.1 - - [24/Jul/2024 17:42:17] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-07-24 17:42:17,520:INFO:127.0.0.1 - - [24/Jul/2024 17:42:17] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -

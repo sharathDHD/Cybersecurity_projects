@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Terminal Web App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Linux Terminal Web App</h1>
+        <form action="/" method="post">
+            <input type="text" name="command" placeholder="Enter command...">
+            <button type="submit">Execute</button>
+        </form>
+        {% if output %}
+            <div class="output">
+                <pre>{{ output }}</pre>
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>
